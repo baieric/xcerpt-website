@@ -36,8 +36,9 @@ ul li {
 }
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: none;
   outline: none;
+  color: #fff;
 }
 .section {
   padding: 90px 0;
@@ -198,11 +199,6 @@ a:focus {
 .navbar .navbar-header {
   padding: 13px 0;
 }
-.navbar-header a:hover {
-  color: #fff;
-  text-decoration: none;
-  outline: none;
-}
 .menu-icon {
   background: transparent;
   border: none;
@@ -303,6 +299,12 @@ a:focus {
 }
 #features .features .features-text p {
   margin: 0;
+}
+#features .features .features-text p a:hover,
+#features .features .features-text p a:focus {
+  text-decoration: underline;
+  color: #009688;
+  outline: none;
 }
 #services {
   background: #fff;
@@ -734,6 +736,7 @@ a:focus {
 }
 #copyright {
   background: #191919;
+  text-align: center;
 }
 #copyright .copyright-text {
   color: #fff;
@@ -790,8 +793,8 @@ a:focus {
 .social i:hover {
   color: #fff;
 }
-.social .fa-facebook:hover {
-  background: #3B5998;
+.social .fa-github:hover {
+  background: #4078c0;
 }
 .social .fa-twitter:hover {
   background: #00ACED;
