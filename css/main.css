@@ -6,6 +6,7 @@ body {
   font-weight: 400;
   background: #fff;
 }
+
 .btn {
   font-size: 14px;
   font-weight: 400;
@@ -153,6 +154,7 @@ a:focus {
   width: 100%;
 }
 .logo-left {
+  font-family: 'ChunkFiveRegular', 'Roboto', Arial, sans-serif;
   color: #fff;
   font-size: 24px;
 }
@@ -231,6 +233,7 @@ a:focus {
   background: transparent;
 }
 .hero-area .contents h1 {
+  font-family: 'ChunkFiveRegular', 'Roboto', Arial, sans-serif;
   font-size: 30px;
   font-weight: 100;
 }
@@ -616,10 +619,15 @@ a:focus {
 #testimonial .carousel-inner p {
   color: #fff;
   letter-spacing: 1px;
-  padding: 0px 20px;
+  margin: 0px;
 }
 #testimonial .carousel-inner p a {
   color: #fff;
+}
+#testimonial .carousel-inner img {
+  margin-left: auto;
+  margin-right: auto;
+  height:450px;
 }
 #testimonial .carousel-inner .meta {
   margin-top: 50px;
